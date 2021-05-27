@@ -1,0 +1,902 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi there",
+        "How are you",
+        "Is anyone there?",
+        "Hey",
+        "Hola",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hello, thanks for asking",
+        "Good to see you again",
+        "Hi there, how can I help?"
+      ],
+      "context": [
+        ""
+      ]
+    },{
+      "tag": "complaint",
+      "patterns": [
+        "Not satisfied with your response",
+        "wrong answer",
+        "I would like to make a complaint",
+        "complaint"
+      ],
+      "responses": [
+        "Sorry to hear that Mail <a href=mailto:121710306023@gitam.in> Here</a> for updation"
+
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "greeting1",
+      "patterns": [
+        "What’s up?",
+        "Yo",
+        "How you doing",
+        "How are you",
+        "How about you"
+      ],
+      "responses": [
+        "I am fine !! How are you",
+        "Thanks for asking I am good how are you",
+        "I am good tell me how are you"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "busy",
+      "patterns": [
+        "Are you busy?",
+        "You are busy"
+      ],
+      "responses": [
+        "Nope I am always there for you tell me How can I assist you"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "Say something funny ",
+        "jokes"
+      ],
+      "responses": [
+        ""
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "genius",
+      "patterns": [
+        "You are a genius!",
+        "You are a very useful chat bot",
+        "You are useful"
+      ],
+      "responses": [
+        "Thanks for showing your love !!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Awesome, thanks",
+        "Thanks for helping me",
+        "good",
+        "nice",
+        "great",
+        "good to see you"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "Thank you"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "okay",
+      "patterns": [
+        "okay",
+        "ok",
+        "done",
+        "got it",
+        "perfect"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "Okay !!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "morning_greet",
+      "patterns": [
+        "Good morning",
+        "Morning",
+        "morning",
+        "Morning good"
+      ],
+      "responses": [
+        "Hey there good morning, Tell me how can I assist you ?",
+        "Very good morning!",
+        "Good to see you good morning !"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "afternoon_greet",
+      "patterns": [
+        "Good afternoon",
+        "Afternoon",
+        "afternoon",
+        "Afternoon good"
+      ],
+      "responses": [
+        "Hey there good afternoon, Tell me how can I assist you ?",
+        "Very good afternoon!",
+        "Good to see you good afternoon !"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "evening_greet",
+      "patterns": [
+        "Good evening",
+        "Evening",
+        "evening",
+        "evening good"
+      ],
+      "responses": [
+        "Hey there good evening, Tell me how can I assist you ?",
+        "Very good evening!",
+        "Good to see you good evening !"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "night_greet",
+      "patterns": [
+        "Good night",
+        "night",
+        "Night",
+        "night good"
+      ],
+      "responses": [
+        "Good night thanks for conversation",
+        "Good night nice to talk to you !",
+        "Good to see you good night !"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "options",
+      "patterns": [
+        "How you could help me?",
+        "What you can do?",
+        "What help you provide?",
+        "How you can be helpful?",
+        "What support is offered",
+        "Tell me something that you can do"
+      ],
+      "responses": [
+        "I can guide you through Adverse College & Subjects and Professors related questions",
+        "Offering support for Adverse College, Subjects and Professors related queries"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "subject_query",
+      "patterns": [
+        "What is ",
+        "What are ",
+        "What is difference ",
+        "What is different ",
+        "who is ",
+        "different between ",
+        "difference between ",
+        "how is",
+        "how are",
+        "who created ",
+        "what is java",
+        "what is datamining",
+        "what is cns",
+        "what is OS operating system",
+        "What is dbms",
+        "what is Ai",
+        "Advantages of",
+        "tell me about",
+        "tell me",
+        "Why does",
+        "say something",
+        "say something funny"
+
+
+      ],
+      "responses": [
+        "Search on Google"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "no answer",
+      "patterns": [
+        "",
+        " ",
+        "."
+      ],
+      "responses": [
+        "Sorry, can't understand you",
+        "Please give me more info",
+        "Not sure I understand"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Nice chatting to you, bye",
+        "Till next time"
+      ],
+      "responses": [
+        "See you!",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "principal",
+      "patterns": [
+        "who is principal",
+        "what is name of principal",
+        "our college principal",
+        "principal of",
+        "college principal"
+      ],
+      "responses": [
+        "<strong>Dr. C Dharma Raj, Principal"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "ce_hod",
+      "patterns": [
+        "hod of cse",
+        "head of department cse",
+        "head cse",
+        "hod cse",
+        "hod of computer",
+        "head of department computer",
+        "head computer",
+        "hod computer"
+      ],
+      "responses": [
+        "<strong>Dr. Sireesha R</strong><br><img src=\"static/img/Dep_HOD/cse.jpg\" height=\"200\" width=\"200\">"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "me_hod",
+      "patterns": [
+        "hod of me",
+        "head of department me",
+        "head me",
+        "hod me",
+        "hod of mechanical",
+        "head of department mechanical",
+        "head mechanical",
+        "hod mechanical"
+      ],
+      "responses": [
+        "<strong>Dr. Rama Surya</strong><br><img src=\"static/img/Dep_HOD/mechanical.jpg\" height=\"200\" width=\"200\">"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "cv_hod",
+      "patterns": [
+        "hod of civil",
+        "head of department civil",
+        "head civil",
+        "hod civil"
+      ],
+      "responses": [
+        "<strong>Dr. K Venkata Ramesh</strong><br><img src=\"static/img/Dep_HOD/civil.jpg\" height=\"200\" width=\"200\">"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "biotechnology_hod",
+      "patterns": [
+        "hod of biotechnology",
+        "head of department biotechnology",
+        "head biotechnology",
+        "hod biotechnology"
+      ],
+      "responses": [
+        "<strong>Dr. S Khasim Beebi</strong><br><img src=\"static/img/Dep_HOD/biotechnology.jpg\" height=\"200\" width=\"200\">"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "civil_floor",
+      "patterns": [
+        "where is cv",
+        "which is floor of cv",
+        "which floor of cv",
+        "floor of cv",
+        "what is floor of cv",
+        "what floor of cv",
+        "where is civil",
+        "which is floor of civil",
+        "which floor of civil",
+        "floor of civil",
+        "what is floor of civil",
+        "what floor of civil"
+      ],
+      "responses": [
+        "<br><strong>Civil Department at 5'th floor</strong>"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "computer_floor",
+      "patterns": [
+        "which is floor of cse",
+        "which floor of cse",
+        "floor of cse",
+        "what is floor of cse",
+        "what floor of cse",
+        "where is computer",
+        "which is floor of computer",
+        "which floor of computer",
+        "floor of computer",
+        "what is floor of computer",
+        "what floor of computer"
+      ],
+      "responses": [
+        "<br><strong>Computer Department at 1'st floor</strong>"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "mechanical_floor",
+      "patterns": [
+        "which is floor of me",
+        "which floor of me",
+        "floor of me",
+        "what is floor of me",
+        "what floor of me",
+        "where is mechanical",
+        "which is floor of mechanical",
+        "which floor of mechanical",
+        "floor of mechanical",
+        "what is floor of mechanical",
+        "what floor of mechanical"
+      ],
+      "responses": [
+        "<br><strong>Mechanical Department at 2'nd floor</strong>"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "electrical_floor",
+      "patterns": [
+        "which is floor of ece",
+        "which floor of ece",
+        "floor of ece",
+        "what is floor of ece",
+        "what floor of ece",
+        "where is electrical",
+        "which is floor of electrical",
+        "which floor of electrical",
+        "floor of electrical",
+        "what is floor of electrical",
+        "what floor of electrical"
+      ],
+      "responses": [
+        "<br><strong>Electrical Department at 3'rd floor</strong>"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "biotechnology_floor",
+      "patterns": [
+        "which is floor of biotechnology",
+        "which floor of biotechnology",
+        "floor of biotechnology",
+        "what is floor of biotechnology",
+        "what floor of biotechnology"
+      ],
+      "responses": [
+        "<br><strong>Biotechnology Department at 4'th floor</strong>"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "time_table_first_sem",
+      "patterns": [
+        "what is time table of 1",
+        "show me time table of 1",
+        "time table of 1",
+        "what is time table of first",
+        "show me time table of first",
+        "time table of first"
+      ],
+      "responses": [
+        "<center>Here is <strong>Time Table</strong> <br><a href=http://127.0.0.1:5000/time_table?sem=1>Click Here to explore</a></b>"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "time_table_second_sem",
+      "patterns": [
+        "what is time table of 2",
+        "show me time table of 2",
+        "time table of 2",
+        "what is time table of second",
+        "show me time table of second",
+        "time table of second"
+      ],
+      "responses": [
+        "<center>Here is <strong>Time Table</strong> <br><a href=http://127.0.0.1:5000/time_table?sem=2>Click Here to explore</a></b>"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "time_table_third_sem",
+      "patterns": [
+        "what is time table of 3",
+        "show me time table of 3",
+        "time table of 3",
+        "what is time table of third",
+        "show me time table of third",
+        "time table of third"
+      ],
+      "responses": [
+        "<center>Here is <strong>Time Table</strong> <br><a href=http://127.0.0.1:5000/time_table?sem=3>Click Here to explore</a></b>"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "time_table_fourth_sem",
+      "patterns": [
+        "what is time table of 4",
+        "show me time table of 4",
+        "time table of 4",
+        "what is time table of fourth",
+        "show me time table of fourth",
+        "time table of fourth"
+      ],
+      "responses": [
+        "<center>Here is <strong>Time Table</strong> <br><a href=http://127.0.0.1:5000/time_table?sem=4>Click Here to explore</a></b>"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "time_table_fifth_sem",
+      "patterns": [
+        "what is time table of 5",
+        "show me time table of 5",
+        "time table of 5",
+        "what is time table of fifth",
+        "show me time table of fifth",
+        "time table of fifth"
+      ],
+      "responses": [
+        "<center>Here is <strong>Time Table</strong> <br><a href=http://127.0.0.1:5000/time_table?sem=5>Click Here to explore</a></b>"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "time_table_sixth_sem",
+      "patterns": [
+        "what is time table of 6",
+        "show me time table of 6",
+        "time table of 6",
+        "what is time table of sixth",
+        "show me time table of sixth",
+        "time table of sixth"
+      ],
+      "responses": [
+        "<center>Here is <strong>Time Table</strong> <br><a href=http://127.0.0.1:5000/time_table?sem=6>Click Here to explore</a></b>"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "time_table_seventh_sem",
+      "patterns": [
+        "what is time table of 7",
+        "show me time table of 7",
+        "time table of 7",
+        "what is time table of seventh",
+        "show me time table of seventh",
+        "time table of seventh"
+      ],
+      "responses": [
+        "<center>Here is <strong>Time Table</strong> <br><a href=http://127.0.0.1:5000/time_table?sem=7>Click Here to explore</a></b>"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "time_table_eighth_sem",
+      "patterns": [
+        "what is time table of 8",
+        "show me time table of 8",
+        "time table of 8",
+        "what is time table of eight",
+        "show me time table of eight",
+        "time table of eight",
+        "what is time table of eighth",
+        "show me time table of eighth",
+        "time table of eighth"
+      ],
+      "responses": [
+        "<center>Here is <strong>Time Table</strong> <br><a href=http://127.0.0.1:5000/time_table?sem=8>Click Here to explore</a></b>"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "default_time_table",
+      "patterns": [
+        "what is time table cse",
+        "show me time table of cse",
+        "time table of cse",
+        "what is time table of computer department",
+        "show me time table of computer department",
+        "time table of computer department",
+        "what is time table of computer department",
+        "show me time table of computer department",
+        "time table of computer department"
+      ],
+      "responses": [
+        "<strong>In which semester ?</strong>"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "first_sem_TT",
+      "patterns": [
+        "1",
+        "first",
+        "one"
+      ],
+      "responses": [
+        "<center>Here is <strong>Time Table</strong> <br><a href=http://127.0.0.1:5000/time_table?sem=1 target = _blank >Click Here to explore</a></b>"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "second_sem_TT",
+      "patterns": [
+        "2",
+        "second",
+        "two"
+      ],
+      "responses": [
+        "<center>Here is <strong>Time Table</strong> <br><a href=http://127.0.0.1:5000/time_table?sem=2 target = _blank >Click Here to explore</a></b>"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "third_sem_TT",
+      "patterns": [
+        "3",
+        "third",
+        "three"
+      ],
+      "responses": [
+        "<center>Here is <strong>Time Table</strong> <br><a href=http://127.0.0.1:5000/time_table?sem=3 target= _blank >Click Here to explore</a></b>"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "fourth_sem_TT",
+      "patterns": [
+        "4",
+        "fourth",
+        "four"
+      ],
+      "responses": [
+        "<center>Here is <strong>Time Table</strong> <br><a href=http://127.0.0.1:5000/time_table?sem=4 target= _blank >Click Here to explore</a></b>"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "fifth_sem_TT",
+      "patterns": [
+        "5",
+        "fifth",
+        "five"
+      ],
+      "responses": [
+        "<center>Here is <strong>Time Table</strong> <br><a href=http://127.0.0.1:5000/time_table?sem=5 target = _blank >Click Here to explore</a></b>"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "sixth_sem_TT",
+      "patterns": [
+        "6",
+        "sixth",
+        "six"
+      ],
+      "responses": [
+        "<center>Here is <strong>Time Table</strong> <br><a href=http://127.0.0.1:5000/time_table?sem=6 target = _blank >Click Here to explore</a></b>"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "seventh_sem_TT",
+      "patterns": [
+        "7",
+        "seventh",
+        "seven"
+      ],
+      "responses": [
+        "<center>Here is <strong>Time Table</strong> <br><a href=http://127.0.0.1:5000/time_table?sem=7 target = _blank >Click Here to explore</a></b>"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "eight_sem_TT",
+      "patterns": [
+        "8",
+        "eighth",
+        "eight"
+      ],
+      "responses": [
+        "<center>Here is <strong>Time Table</strong> <br><a href=http://127.0.0.1:5000/time_table?sem=8 target = _blank >Click Here to explore</a></b>"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "Java_lecturer",
+      "patterns": [
+        "Who teaches java",
+        "Java is taught by",
+        "who is java lecturer",
+        "who is java faculty"
+      ],
+      "responses": [
+        "Lakshmeeswari Gondi , Associate Professor <br><a href=https://vspgitcse.gitam.edu/faculty/profile/1335 target=_blank> Click here to find out more about the faculty</a>"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "ML_lecturer",
+      "patterns": [
+        "Who teaches Machine Learning",
+        "Machine Learning  is taught by",
+        "who is  machine learning lecturer",
+        "who is machine learning faculty",
+        "Who teaches ML",
+        "ML  is taught by",
+        "who is ml lecturer",
+        "who is ml faculty"
+      ],
+      "responses": [
+        "Sireesha R, Professor <br><a href=https://vspgitcse.gitam.edu/faculty/profile/1245 target=_blank> Click here to find out more about the faculty</a>"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "cns_lecturer",
+      "patterns": [
+        "Who teaches cryptography and network security",
+        "cryptography and network security is taught by",
+        "who is cryptography and network security lecturer",
+        "who is cryptography and network security faculty",
+        "Who teaches cns ",
+        "cns is taught by",
+        "who is cns lecturer",
+        "who is cns faculty"
+      ],
+      "responses": [
+        "Venkata Lakshmi P, Professor <br><a href=https://vspgitcse.gitam.edu/faculty/profile/1251 target=_blank> Click here to find out more about the faculty</a>"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "dbms_lecturer",
+      "patterns": [
+        "Who teaches DBMS",
+        "DBMS is taught by",
+        "who is DBMS lecturer",
+        "who is DBMS faculty",
+        "Who teaches database management"
+      ],
+      "responses": [
+        "Malar Selvi S, Assistant Professor <br><a href=https://vspgitcse.gitam.edu/faculty/profile/120007 target=_blank> Click here to find out more about the faculty</a>"
+      ],
+      "context": [
+        ""
+      ]
+    },
+
+    {
+      "tag": "OS_lecturer",
+      "patterns": [
+        "Who teaches Operating Systems",
+        "Operating System is taught by",
+        "who is Operating System lecturer",
+        "who is Operating System faculty",
+        "who is os faculty"
+      ],
+      "responses": [
+        "Mansa Devi Pappu, Assistant Professor <br><a href=https://vspgitcse.gitam.edu/faculty/profile/120004 target=_blank> Click here to find out more about the faculty</a>"
+      ],
+      "context": [
+        ""
+      ]
+    },
+
+{
+      "tag": "Ai_lecturer",
+      "patterns": [
+        "Who teaches Artificial intelligence",
+        "Artificial Intelligence is taught by",
+        "who is Artificial Intelligence lecturer",
+        "who is Artificial Intelligence faculty",
+        "Who teaches AI"
+      ],
+      "responses": [
+        "Sairam Vakkalanka, Assistant Professor <br><a href=https://vspgitcse.gitam.edu/faculty/profile/120038 target=_blank> Click here to find out more about the faculty</a>"
+      ],
+      "context": [
+        ""
+      ]
+},
+
+{
+      "tag": "dm_lecturer",
+      "patterns": [
+        "Who teaches Data Mining",
+        "Data Mining is taught by"
+
+      ],
+      "responses": [
+        "Thammi Reddy K, Professor-HOD <br><a href=https://vspgitcse.gitam.edu/faculty/profile/1205 target=_blank> Click here to find out more about the faculty</a>"
+      ],
+      "context": [
+        ""
+      ]
+},{
+      "tag": "C_lecturer",
+      "patterns": [
+        "Who teaches C language",
+        "C language is taught by",
+        "who is C language lecturer",
+        "who is C language faculty",
+        "Who teaches Data Structures and algorithms",
+        "DSA is taught by",
+        "who is Data Structures lecturer",
+        "who is Data Structures faculty"
+      ],
+      "responses": [
+        "Venkata Ramana M, Assistant Professor <br><a href=https://vspgitcse.gitam.edu/faculty/profile/1316 target=_blank> Click here to find out more about the faculty</a>"
+      ],
+      "context": [
+        ""
+      ]
+},
+    {
+      "tag": "group_member",
+      "patterns": [
+        "who created you"
+      ],
+      "responses": [
+        "I was created by Dhanya, Sumanth, Srinadh and Asish as part of their final year project"
+      ],
+      "context": [
+        ""
+      ]
+    }
+  ]
+}

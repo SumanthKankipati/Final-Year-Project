@@ -1,0 +1,598 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi there",
+        "How are you",
+        "Is anyone there?",
+        "Hey",
+        "Hola",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hello, thanks for asking",
+        "Good to see you again",
+        "Hi there, how can I help?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "greeting1",
+      "patterns": [
+        "What’s up?",
+        "Yo",
+        "How you doing",
+        "How are you",
+        "How about you"
+      ],
+      "responses": [
+        "I am fine !! How are you",
+        "Thanks for asking I am good how are you",
+        "I am good tell me how are you"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "busy",
+      "patterns": [
+        "Are you busy?",
+        "You are busy"
+      ],
+      "responses": [
+        "Nope I am always there for you tell me How can I assist you"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "jokes",
+      "patterns": [
+        "Say something funny ",
+        "Tell me a joke",
+        "Tell me joke",
+        "jokes"
+      ],
+      "responses": [
+        "Search Jokes"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "genius",
+      "patterns": [
+        "You are a genius!",
+        "You are a very useful chat bot",
+        "You are useful"
+      ],
+      "responses": [
+        "Thanks for showing your love !!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Awesome, thanks",
+        "Thanks for helping me",
+        "good",
+        "nice",
+        "great",
+        "good to see you"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "Thank you"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "okay",
+      "patterns": [
+        "okay",
+        "ok",
+        "done",
+        "got it",
+        "perfect"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "Okay !!"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "morning_greet",
+      "patterns": [
+        "Good morning",
+        "Morning",
+        "morning",
+        "Morning good"
+      ],
+      "responses": [
+        "Hey there good morning, Tell me how can I assist you ?",
+        "Very good morning!",
+        "Good to see you good morning !"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "afternoon_greet",
+      "patterns": [
+        "Good afternoon",
+        "Afternoon",
+        "afternoon",
+        "Afternoon good"
+      ],
+      "responses": [
+        "Hey there good afternoon, Tell me how can I assist you ?",
+        "Very good afternoon!",
+        "Good to see you good afternoon !"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "evening_greet",
+      "patterns": [
+        "Good evening",
+        "Evening",
+        "evening",
+        "evening good"
+      ],
+      "responses": [
+        "Hey there good evening, Tell me how can I assist you ?",
+        "Very good evening!",
+        "Good to see you good evening !"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "night_greet",
+      "patterns": [
+        "Good night",
+        "night",
+        "Night",
+        "night good"
+      ],
+      "responses": [
+        "Good night thanks for conversation",
+        "Good night nice to talk to you !",
+        "Good to see you good night !"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "options",
+      "patterns": [
+        "How you could help me?",
+        "What you can do?",
+        "What help you provide?",
+        "How you can be helpful?",
+        "What support is offered",
+        "Tell me something that you can do"
+      ],
+      "responses": [
+        "I can guide you through Adverse College & Subjects and Professors related questions",
+        "Offering support for Adverse College, Subjects and Professors related queries"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "subject_query",
+      "patterns": [
+        "What is ",
+        "What are ",
+        "What is difference ",
+        "What is different ",
+        "who is ",
+        "different between ",
+        "difference between ",
+        "how is",
+        "how are"
+      ],
+      "responses": [
+        "Search on Google"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [
+        "",
+        " ",
+        "."
+      ],
+      "responses": [
+        "Sorry, can't understand you",
+        "Please give me more info",
+        "Not sure I understand"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Nice chatting to you, bye",
+        "Till next time"
+      ],
+      "responses": [
+        "See you!",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "principal",
+      "patterns": [
+        "who is principal",
+        "what is name of principal",
+        "our college principal",
+        "principal of",
+        "college principal"
+      ],
+      "responses": [
+        "<strong>Dr. I. Jyothi Padmaja</strong><br><img src=\"static/img/Dep_HOD/principal.jpg\" height=\"200\" width=\"200\">"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "ce_hod",
+      "patterns": [
+        "hod of cse",
+        "head of department cse",
+        "head cse",
+        "hod cse",
+        "hod of computer",
+        "head of department computer",
+        "head computer",
+        "hod computer"
+      ],
+      "responses": [
+        "<strong>Dr. K Thammi Reddy</strong><br><img src=\"static/img/Dep_HOD/cse.jpg\" height=\"200\" width=\"200\">"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "me_hod",
+      "patterns": [
+        "hod of me",
+        "head of department me",
+        "head me",
+        "hod me",
+        "hod of mechanical",
+        "head of department mechanical",
+        "head mechanical",
+        "hod mechanical"
+      ],
+      "responses": [
+        "<strong>Dr. Rama Surya</strong><br><img src=\"static/img/Dep_HOD/mechanical.jpg\" height=\"200\" width=\"200\">"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "cv_hod",
+      "patterns": [
+        "hod of civil",
+        "head of department civil",
+        "head civil",
+        "hod civil"
+      ],
+      "responses": [
+        "<strong>Dr. K Venkata Ramesh</strong><br><img src=\"static/img/Dep_HOD/civil.jpg\" height=\"200\" width=\"200\">"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "biotechnology_hod",
+      "patterns": [
+        "hod of biotechnology",
+        "head of department biotechnology",
+        "head biotechnology",
+        "hod biotechnology"
+      ],
+      "responses": [
+        "<strong>Dr. S Khasim Beebi</strong><br><img src=\"static/img/Dep_HOD/biotechnology.jpg\" height=\"200\" width=\"200\">"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "civil_floor",
+      "patterns": [
+        "where is cv",
+        "which is floor of cv",
+        "which floor of cv",
+        "floor of cv",
+        "what is floor of cv",
+        "what floor of cv",
+        "where is civil",
+        "which is floor of civil",
+        "which floor of civil",
+        "floor of civil",
+        "what is floor of civil",
+        "what floor of civil"
+      ],
+      "responses": [
+        "<br><strong>Civil Department at 5'th floor</strong>"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "computer_floor",
+      "patterns": [
+        "where is cse",
+        "which is floor of cse",
+        "which floor of cse",
+        "floor of cse",
+        "what is floor of cse",
+        "what floor of cse",
+        "where is computer",
+        "which is floor of computer",
+        "which floor of computer",
+        "floor of computer",
+        "what is floor of computer",
+        "what floor of computer"
+      ],
+      "responses": [
+        "<br><strong>Computer Department at 1'st floor</strong>"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "mechanical_floor",
+      "patterns": [
+        "where is me",
+        "which is floor of me",
+        "which floor of me",
+        "floor of me",
+        "what is floor of me",
+        "what floor of me",
+        "where is mechanical",
+        "which is floor of mechanical",
+        "which floor of mechanical",
+        "floor of mechanical",
+        "what is floor of mechanical",
+        "what floor of mechanical"
+      ],
+      "responses": [
+        "<br><strong>Mechanical Department at 2'nd floor</strong>"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "electrical_floor",
+      "patterns": [
+        "where is ece",
+        "which is floor of ece",
+        "which floor of ece",
+        "floor of ece",
+        "what is floor of ece",
+        "what floor of ece",
+        "where is electrical",
+        "which is floor of electrical",
+        "which floor of electrical",
+        "floor of electrical",
+        "what is floor of electrical",
+        "what floor of electrical"
+      ],
+      "responses": [
+        "<br><strong>Electrical Department at 3'rd floor</strong>"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "biotechnology_floor",
+      "patterns": [
+        "where is biotechnology",
+        "which is floor of biotechnology",
+        "which floor of biotechnology",
+        "floor of biotechnology",
+        "what is floor of biotechnology",
+        "what floor of biotechnology"
+      ],
+      "responses": [
+        "<br><strong>Biotechnology Department at 4'th floor</strong>"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "time_table_first_sem",
+      "patterns": [
+        "what is time table of 1",
+        "show me time table of 1",
+        "time table of 1",
+        "what is time table of first",
+        "show me time table of first",
+        "time table of first"
+      ],
+      "responses": [
+        "<center>Here is <strong>Time Table</strong> <br>Now you can look into table</center><br><img src=\"\\static\\img\\Time_Table\\1_sem.jpeg\" height=\"300\" width=\"300\">"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "time_table_second_sem",
+      "patterns": [
+        "what is time table of 2",
+        "show me time table of 2",
+        "time table of 2",
+        "what is time table of second",
+        "show me time table of second",
+        "time table of second"
+      ],
+      "responses": [
+        "<center>Here is <strong>Time Table</strong> <br>Now you can look into table</center><br><img src=\"\\static\\img\\Time_Table\\2_sem.jpeg\" height=\"300\" width=\"300\">"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "time_table_third_sem",
+      "patterns": [
+        "what is time table of 3",
+        "show me time table of 3",
+        "time table of 3",
+        "what is time table of third",
+        "show me time table of third",
+        "time table of third"
+      ],
+      "responses": [
+        "<center>Here is <strong>Time Table</strong> <br>Now you can look into table</center><br><img src=\"\\static\\img\\Time_Table\\3_sem.jpeg\" height=\"300\" width=\"300\">"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "time_table_fourth_sem",
+      "patterns": [
+        "what is time table of 4",
+        "show me time table of 4",
+        "time table of 4",
+        "what is time table of fourth",
+        "show me time table of fourth",
+        "time table of fourth"
+      ],
+      "responses": [
+        "<center>Here is <strong>Time Table</strong> <br>Now you can look into table</center><br><img src=\"\\static\\img\\Time_Table\\4_sem.jpeg\" height=\"300\" width=\"300\">"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "time_table_fifth_sem",
+      "patterns": [
+        "what is time table of 5",
+        "show me time table of 5",
+        "time table of 5",
+        "what is time table of fifth",
+        "show me time table of fifth",
+        "time table of fifth"
+      ],
+      "responses": [
+        "<center>Here is <strong>Time Table</strong> <br>Now you can look into table</center><br><img src=\"\\static\\img\\Time_Table\\5_sem.jpeg\" height=\"300\" width=\"300\">"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "time_table_sixth_sem",
+      "patterns": [
+        "what is time table of 6",
+        "show me time table of 6",
+        "time table of 6",
+        "what is time table of sixth",
+        "show me time table of sixth",
+        "time table of sixth"
+      ],
+      "responses": [
+        "<center>Here is <strong>Time Table</strong> <br>Now you can look into table</center><br><img src=\"\\static\\img\\Time_Table\\6_sem.jpeg\" height=\"300\" width=\"300\">"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "time_table_seventh_sem",
+      "patterns": [
+        "what is time table of 7",
+        "show me time table of 7",
+        "time table of 7",
+        "what is time table of seventh",
+        "show me time table of seventh",
+        "time table of seventh"
+      ],
+      "responses": [
+        "<center>Here is <strong>Time Table</strong> <br>Now you can look into table</center><br><img src=\"\\static\\img\\Time_Table\\7_sem.jpeg\" height=\"300\" width=\"300\">"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "time_table_eighth_sem",
+      "patterns": [
+        "what is time table of 8",
+        "show me time table of 8",
+        "time table of 8",
+        "what is time table of eight",
+        "show me time table of eight",
+        "time table of eight",
+        "what is time table of eighth",
+        "show me time table of eighth",
+        "time table of eighth"
+      ],
+      "responses": [
+        "<center>Here is <strong>Time Table</strong> <br>Now you can look into table</center><br><img src=\"\\static\\img\\Time_Table\\8_sem.jpeg\" height=\"300\" width=\"300\">"
+      ],
+      "context": [
+        ""
+      ]
+    }
+  ]
+}
